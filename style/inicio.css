@@ -1,0 +1,58 @@
+#principal{
+    float: left;
+    column-count: 3;
+    display: inline;
+    width: 100%;
+}
+
+.pok {
+    text-align: center;
+    padding-bottom: 2%;
+}
+
+.pok img {
+    width: 40%;
+}
+
+.pok p{
+    font-weight: bold;
+}
+
+.pok button{
+    background-color: black;
+    color: white;
+}
+
+#main-banner img {
+    width: 100%;
+    height: 100%;
+}
+
+@media only screen and (max-width: 768px) {
+	#principal{
+        float: left;
+        column-count: 1;
+        display: inline;
+        width: 100%;
+    }
+}
+
+#main-banner {
+    width: 100%;
+    height: 300px;
+    background-image: url(banner-background.jpg);
+    background-size: cover;
+    animation: banner-animation 10s ease-in-out infinite;
+  }
+  
+  @keyframes banner-animation {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-30px);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
