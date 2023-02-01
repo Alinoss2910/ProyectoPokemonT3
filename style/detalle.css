@@ -31,8 +31,10 @@
 
 #texto {
   position: fixed;
-  bottom: 30%;
+  bottom: 28%;
   left: 0;
+  padding-left: 10%;
+  padding-right: 10%;
 }
 
 #main-banner {
@@ -61,5 +63,17 @@
   left: 40%;
   width: 20%;
   height: 20%;
+}
+
+h6 {
+  position: fixed;
+  bottom: 0;
+  right: 40%;
+}
+
+#css {
+  position: fixed;
+  left: 0;
+  bottom: 0;
 }
 
